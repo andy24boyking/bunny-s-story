@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Bunny's Story </title>
+		<meta name="description" content="Bunny's story" />
+		<meta name="keywords" content="bunny" />
+		<meta name="author" content="Andy24boyking" />
+		<link href="./bunny.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="images/Rab.ICO" type="image/x-icon">
+		<script type="text/javascript" charset="utf-8" src="./map.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./tip.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./level.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./run.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./command.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./bunny.js"></script>
+	</head>
+	<body onload="onLoad();">
+		<audio loop id="loop"> 
+			<source src="sound/loop.mp3" preload="auto">
+		</audio>
+		<audio loop id="walk"> 
+			<source src="sound/walk.mp3">
+		</audio>
+		<audio id="cry">
+			<source src="sound/cry.mp3">
+		</audio>
+		<audio id="laugh"> 
+			<source src="sound/laugh.mp3">
+		</audio>
+		<audio id="drop"> 
+			<source src="sound/drop.mp3">
+		</audio>
+		<div id="main">
+			<canvas id="myCanvas"></canvas>
+			<div id="command">
+				<h1>Bunny's&nbsp;&nbsp;Story</h1>
+				<textarea id="program"></textarea><br/><br/>
+				<input type="button" name="run" class="button" value="Run" onclick="Command();"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;<img id="mus" src="images/Music.png" onclick="sound();">
+			</div>
+		</div>
+	</body>
+</html>
