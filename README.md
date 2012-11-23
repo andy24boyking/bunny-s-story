@@ -1,4 +1,4 @@
 bunny-s-story
 =============
 
-HTML5 Canvas game
+It's an HTML5 Canvas game. You can use commands -- "move left right" -- to make up a program to help the bunny get her carrot.
