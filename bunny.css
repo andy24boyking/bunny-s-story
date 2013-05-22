@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(205,215,230);
+}
+
+#main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+canvas {
+	width: 600px;
+	height: 600px;
+	background-image: url("images/grass.jpg");
+}
+
+#command {
+	width: 350px;
+	float: right;
+}
+
+h1 {
+	font-family: verdana;
+	/*font-family:微软雅黑;*/
+	color: white;
+}
+
+#program {
+	border: 2px solid #888;
+	width: 350px;
+	height: 450px;
+	padding: 5px;
+	color: #cdf;
+	background: #222;
+	font-size: 18px;
+	font-family: courier;
+	line-height: 22px;
+}
+.button {
+	width: 150px;
+	height: 35px;
+	float: right;
+	border: 0;
+	font-family:verdana; font-size:18pt; color:white;
+	cursor:pointer;
+	background: rgb(130,130,130);
+}
+
+#mus {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
